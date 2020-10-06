@@ -1,1 +1,104 @@
 
+body
+{
+    background-image: url("japan.jpg");
+    background-size: cover;
+    font-family: "Verdana";
+}
+
+#container
+{
+    width:70%;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin:auto;
+    padding:25px;
+    border:10px ridge lightblue;
+    border-radius:10px;
+}
+
+header
+{
+    font-size: 1.5em;
+    text-align:center;
+    background-color:rgba(139, 182, 223, 0.5);
+}
+
+nav ul li
+{
+    display: inline-block;
+    width:20%;
+    padding:10px;
+    border:2px solid white;
+	height:75px;
+	background-color:none;
+}
+
+nav ul li a
+{
+    color:white;
+    text-decoration:none;
+    transition-duration: 1s;
+	
+}
+
+nav ul li a:hover
+{
+    color:red;
+
+}
+
+nav ul li:hover
+{
+	background-color:white
+}
+
+nav
+{
+    text-align:center;
+    font-size:2em;
+}
+
+.zaszlo
+{
+	width:25%;
+	height:25%;
+}
+
+h3
+{
+font-family: Arial, Helvetica, sans-serif;
+word-spacing: 13px;
+line-height:1.4em;
+}
+
+a
+{
+	color:red;
+}
+
+.nem
+{
+	text-transform:capitalize;
+	color:#00004d;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
