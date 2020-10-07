@@ -1,7 +1,7 @@
 
 body
 {
-    background-image: url("japan.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,14 +18,16 @@ header
 {
     font-size: 1.5em;
     text-align:center;
-    background-color:rgba(139, 182, 223, 0.5);
 }
 
 nav
 {
     border-radius:5px;
+    background-color: whitesmoke;
     font-size:1.2em;
 }
+
+
 
 .zaszlo
 {
@@ -76,11 +78,11 @@ a
     font-family: "Verdana";
 }
 
-.valami
+.background
 {
 	font-size: 1.5em;
     text-align:center;
-	background-color:DodgerBlue
+	background-color:white
 }
 
 li
@@ -88,25 +90,12 @@ li
 	text-decoration: none;
 	color:red;
 }
-table, th, td {
-  border: 1px solid black;
-}
-table {
-  width: 100%;
-}
 
-th {
-  height: 50px;
-  text-align: center;
-
-}
-td {
-  height: 50px;
-  vertical-align: bottom;
-}
-th, td {
-  border-bottom: 1px solid #ddd;
-   padding: 15px;
+.kep1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
