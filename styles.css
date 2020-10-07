@@ -2,8 +2,11 @@
 body
 {
     background-image: url("japan.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: "Verdana";
+    color: grey;
 }
 
 .container
