@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Japán utazás tervezés</title>
-    <link href="utazas.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <script src="utazas"></script>
-	Repülő jegy átlag 350000Ft/fő oda-vissza
-	
+	</head>
+	<body class="utazas">
+	<div id="container">
+	<header class="valami"><h1>Utazás<h1></header>
+	<nav>
+            <ul>
+                <li><a href="japan.html">Vissza a főoldalra</a></li>
+                <li><a href="nevezetessegek.html">Japán nevezetességei</a></li>
+                <li><a href="unnep.html">Japán nemzeti napok</a></li>
+            </ul>
+    </nav>
+	<p><h2>Tokiói utazás</h2></p>
+	<p><h3>Költsévetés:</p></h3>
+	<p><h3>Repülő jegy ára 350000Ft/fő oda-vissza</h3></p>
+	<p> <input type="number" min="0" placeholder="Utazók száma" id="a"></p>
+	          <input type="button" onclick="repjegy()" value="Ár">
+        Repülőjegy:<span id="eredmeny"></span>
+	</div>
+	</body>
+	</html>
