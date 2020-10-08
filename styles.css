@@ -97,6 +97,26 @@ li
     margin-left: auto;
     margin-right: auto;
 }
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+  text-align: center;
+
+}
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+   padding: 15px;
+}
 
 
 
